@@ -38,7 +38,7 @@ body {
   background-image: url('../images/developer.png') ;
   background-repeat: no-repeat;
   background-position: bottom 5px  left 50px ;
-  height: 782px;
+  height: 776px;
   
 }
 
@@ -129,7 +129,7 @@ ul a {
 .banner-img {
       width: 974px;
     padding-top: 50px;
-    margin-right: -190px;
+    margin-right: -193px;
 }
 
 .banner-img img {
