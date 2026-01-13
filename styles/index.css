@@ -1,0 +1,346 @@
+/* font Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* shared styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: rgba(253, 110, 10, 1);
+  --secondary-color: rgba(24, 24, 24, 1);
+  --text-color: rgba(117, 117, 117, 1);
+  --bacground: rgba(255, 248, 243, 1);
+  --white: rgba(255, 255, 255, 1);
+  --dark: rgba(71, 71, 71, 1);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.default-width {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.df {
+  display: flex;
+}
+
+/* header part start */
+.header-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: var(--bacground);
+  background-image: url('../images/developer.png') ;
+  background-repeat: no-repeat;
+  background-position: bottom 5px  left 50px ;
+  height: 782px;
+  
+}
+
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.nav-links {
+  gap: 51px;
+}
+
+ul {
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.tanim-title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 61px;
+}
+
+.title-color {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px 25px;
+  background: var(--primary-color);
+  border: none;
+}
+
+.banner-container {
+  
+
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 47px;
+}
+
+.banner-content {
+  width: 670px;
+}
+
+.banner-sub-title {
+  color: var(--dark);
+      font-size: 40px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.banner-title {
+  color: var(--secondary-color);
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 116px;
+}
+
+.banner-text {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-container {
+  gap: 20px;
+}
+
+.banner-img {
+      width: 974px;
+    padding-top: 50px;
+    margin-right: -190px;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.btn-none {
+  color: var(--primary-color);
+  background: none;
+  box-sizing: border-box;
+  border: 1px solid var(--primary-color);
+}
+
+
+.btn-container{
+  margin-top: 20px;
+  gap: 20px;
+}
+/* headet part end */
+
+/* about part start */
+.about-container{
+  margin: 114px 0 141px 0;
+  background-color: var(--bacground);
+}
+
+.about-content{
+  padding: 147px 187px 115px 126px;
+  text-align: center;
+  gap: 30px;
+  flex-direction: column;
+  width: 827px;
+
+}
+
+.primary-title{
+font-size: 35px;
+font-weight: bold;
+color: rgba(24, 24, 24, 1);
+}
+
+.info-content{
+  justify-content: space-around;
+gap: 30px;
+}
+
+
+
+.info-text{
+  color: var(--text-color);
+font-size: 20px;
+line-height: 30px;
+font-weight: 300;
+padding-bottom: 7px;
+}
+
+.fourth-title{
+color: var(--text-color);
+font-size: 20px;
+line-height: 30px;
+font-weight: 400;
+}
+/* about part end */
+
+
+/* service part start */
+.service-container{
+margin-bottom: 130px;
+}
+
+
+.service-content{
+  text-align: center;
+  width: 909px;
+  margin: 50px auto;
+}
+
+.service-content .banner-text{
+  padding-top: 31px;
+}
+
+.service-card-content{
+  gap: 24px;
+}
+
+.service-card-content .fourth-title{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.service-card{
+  padding: 30px;
+  border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.primary-text{
+  color: var(--text-color);
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+}
+/* service part end */
+
+
+/* resume part start */
+
+.resume-container{
+  margin-bottom: 130px;
+}
+
+.resume-card-container{
+  padding-top: 114px;
+  padding-bottom: 20px;
+  gap: 24px;
+  
+}
+
+
+.resume-container .resume-card{
+width: 511px;
+}
+
+
+.resume-card-container .primary-text{
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+}
+
+.secondary-title{
+  font-size: 30px;
+  font-weight:bold;
+  color: var(--dark);
+}
+
+.third-title{
+   font-size: 25px;
+  font-weight:bold;
+  color: var(--dark);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+.resume-card-container .fourth-title{
+  font-weight: 600 ;
+  
+}
+
+hr{
+  width: 546.5px;
+}
+
+.resume-btn{
+  justify-content: center;
+}
+
+.resume-container .primary-title{
+  text-align: center;
+}
+
+
+
+/* resume part end */
+
+/* footer Part start */
+.footer-container{
+  max-width: 1600px;
+  margin: 0 auto;
+  background: var(--bacground);
+}
+
+.footer-content{
+gap: 117px;
+padding: 130px 0;
+}
+
+.content-1{
+width: 562px;
+}
+
+.content-1 .primary-text{
+  padding-top: 20px;
+  padding-bottom: 30px;
+} 
+
+.content-2{
+width: 461px;
+flex-direction: column;
+gap: 24px;
+}
+
+.content-1-img{
+gap: 20px;
+}
+
+input{
+  background: var(--white);
+  padding: 18px 350px 18px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea{
+  background: var(--white);
+  padding: 18px 0 0 30px;
+  border-radius: 5px;
+  border: none;
+}
+/* footer Part end */
